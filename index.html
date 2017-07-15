@@ -1,97 +1,483 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>朱润亚技术个站</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="朱润亚技术个站">
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="扶我起来，还能撑几年">
+<meta property="og:type" content="website">
+<meta property="og:title" content="朱润亚的博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="朱润亚技术个站">
+<meta property="og:site_name" content="朱润亚的博客">
+<meta property="og:description" content="扶我起来，还能撑几年">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="朱润亚技术个站">
+<meta name="twitter:title" content="朱润亚的博客">
+<meta name="twitter:description" content="扶我起来，还能撑几年">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>朱润亚的博客</title>
   
-    <link rel="alternate" href="/atom.xml" title="朱润亚技术个站" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cbf761bb55fe7f533594f06c623365f0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
 
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">朱润亚技术个站</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
   
-    <article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/07/15/hexo/" class="article-date">
-  <time datetime="2017-07-15T03:09:14.706Z" itemprop="datePublished">2017-07-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/15/hexo/">HEXO+Github,搭建属于自己的博客</a>
-    </h1>
+    
   
 
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">朱润亚的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">各种前沿技术</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/15/hexo-theme/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱润亚">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/user.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朱润亚的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/15/hexo-theme/" itemprop="url">hexo 主题使用</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-15T15:23:53+08:00">
+                2017-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a><strong>配置环境</strong></h3><p>安装Node（必须）</p>
-<p>作用：用来生成静态页面的</p>
-<p>到Node.js<a href="https://nodejs.org/" target="_blank" rel="external">官网</a>下载相应平台的最新版本，一路安装即可。</p>
-<p>安装Git（必须）</p>
-<p>作用：把本地的hexo内容提交到github上去.</p>
-<p>安装Xcode就自带有Git，我就不多说了,windows就去下载git<a href="https://git-scm.com/" target="_blank" rel="external">官网</a>。</p>
-<p>申请GitHub（必须）</p>
-<p>作用：是用来做博客的远程创库、域名、服务器之类的，怎么与本地hexo建立连接等下讲。</p>
-<p><a href="https://github.com/" target="_blank" rel="external">github</a>账号我也不再啰嗦了,没有的话直接申请就行了，跟一般的注册账号差不多，SSH Keys，看你自己了，可以不配制，不配置的话以后每次对自己的博客有改动提交的时候就要手动输入账号密码，配置了就不需要了，怎么配置我就不多说了，网上有很多<a href="https://jingyan.baidu.com/article/a65957f4e91ccf24e77f9b11.html" target="_blank" rel="external">教程</a>。</p>
+      
+
+      
+        
+          
+            <h2 id="更换为next主题"><a href="#更换为next主题" class="headerlink" title="更换为next主题"></a>更换为<code>next</code>主题</h2><p>进入hexo站点文件夹</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd your-hexo-site</div></pre></td></tr></table></figure>
+<p>clone <code>Next</code>代码并存放到 <code>themes/next</code> 目录下（用目前比较火的next主题为例）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+<p>在站点 <code>_config.yml</code> 中修改:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure>
+<p><code>Next</code> 主题拥有”题中题”，可以在主题的 <code>_config.yml</code> 中设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scheme: Mist  # 开启Next.Mist主题</div></pre></td></tr></table></figure>
+<h2 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a><a name="t2" target="_blank"></a>设置头像</h2><p>在站点 <code>_config.yml</code> 中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">avatar: http://....  # 头像的URL</div></pre></td></tr></table></figure>
+<h2 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a><a name="t3" target="_blank"></a>添加分类</h2><p>新建一个页面，命名为 <code>categories</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page categories</div></pre></td></tr></table></figure>
+<p>在 <code>source/categories</code> 目录的 <code>index.md</code> 中修改:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: 分类</div><div class="line">date: 2015-12-02 12:44:45</div><div class="line">type: &quot;categories&quot;</div><div class="line">---</div></pre></td></tr></table></figure>
+<p>在主题的 <code>_config.yml</code> 中取消注释:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">categories: /categories</div></pre></td></tr></table></figure>
+<p>在要分类的文章中加入 <code>category</code> 属性:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">category: &quot;hexo&quot;  # 分类为 hexo</div></pre></td></tr></table></figure>
+<h2 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a><a name="t4" target="_blank"></a>添加标签</h2><p>新建一个页面，命名为 <code>tags</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page tags</div></pre></td></tr></table></figure>
+<p>在 <code>source/tags</code> 目录的 <code>index.md</code> 中修改:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: tags</div><div class="line">date: 2015-12-02 12:10:34</div><div class="line">type: &quot;tags&quot;</div><div class="line">---</div></pre></td></tr></table></figure>
+<p>在主题的 <code>_config.yml</code> 中取消注释:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tags: /tags</div></pre></td></tr></table></figure>
+<p>在需要变迁的文章中加入 <code>tgs</code> 属性:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tags: [spark,sparkSQL]  # 添加spark和sparkSQL两个标签</div></pre></td></tr></table></figure>
+<h2 id="添加评论"><a href="#添加评论" class="headerlink" title="添加评论"></a><a name="t5" target="_blank"></a>添加评论</h2><p>在 <a href="http://duoshuo.com" target="_blank" rel="external">多说</a> 创建一个站点，创建时填写的多说域名就是你的 <code>duoshuo_shortname</code></p>
+<p>在站点 <code>_config.yml</code> 中设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">duoshuo_shortname: your_duoshuo_shortname</div></pre></td></tr></table></figure>
+<h2 id="更多功能"><a href="#更多功能" class="headerlink" title="更多功能"></a><a name="t6" target="_blank"></a>更多功能</h2><p>参考 <a href="http://theme-next.iissnan.com" target="_blank" rel="external">next官方帮助文档</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/15/hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱润亚">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/user.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朱润亚的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/15/hexo/" itemprop="url">HEXO+Github,搭建属于自己的博客</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-15T11:09:14+08:00">
+                2017-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a><strong>配置环境</strong></h3><p><a href="https://nodejs.org/" target="_blank" rel="external">安装Node</a>（必须）<br>作用：用来生成静态页面的<br>到Node.js官网下载相应平台的最新版本，一路安装即可。</p>
+<p><a href="https://git-scm.com/" target="_blank" rel="external">安装Git</a>（必须）<br>作用：把本地的hexo内容提交到github上去.<br>安装Xcode就自带有Git，我就不多说了,windows就去官网下载git。</p>
+<p><a href="https://github.com/" target="_blank" rel="external">申请GitHub</a>（必须）<br>作用：是用来做博客的远程创库、域名、服务器之类的，怎么与本地hexo建立连接等下讲。<br>github账号我也不再啰嗦了,没有的话直接申请就行了，跟一般的注册账号差不多，SSH Keys，看你自己了，可以不配制，不配置的话以后每次对自己的博客有改动提交的时候就要手动输入账号密码，配置了就不需要了，怎么配置我就不多说了，网上有很多<a href="https://jingyan.baidu.com/article/a65957f4e91ccf24e77f9b11.html" target="_blank" rel="external">教程</a>。</p>
 <h3 id="正式安装Hexo"><a href="#正式安装Hexo" class="headerlink" title="正式安装Hexo"></a><strong>正式安装Hexo</strong></h3><p>Node和Git都安装好后,首先创建一个文件夹,如blog,用户存放hexo的配置文件,然后进入blog里安装Hexo。</p>
 <p>执行如下命令安装Hexo：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo</div></pre></td></tr></table></figure></p>
 <p>初始化然后，执行init命令初始化hexo,命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure></p>
@@ -119,7 +505,7 @@
 <p>每次部署的步骤，可按以下三步来进行。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">    hexo clean</div><div class="line"></div><div class="line">    hexo generate</div><div class="line"></div><div class="line">    hexo deploy</div></pre></td></tr></table></figure></p>
 <p>一些常用命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></div><div class="line"></div><div class="line">hexo new page<span class="string">"pageName"</span> <span class="comment">#新建页面</span></div><div class="line"></div><div class="line">hexo generate <span class="comment">#生成静态页面至public目录</span></div><div class="line"></div><div class="line">hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></div><div class="line"></div><div class="line">hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></div><div class="line"></div><div class="line">hexo <span class="built_in">help</span> <span class="comment"># 查看帮助</span></div><div class="line"></div><div class="line">hexo version <span class="comment">#查看Hexo的版本</span></div></pre></td></tr></table></figure>
-<h3 id="报错总结"><a href="#报错总结" class="headerlink" title="报错总结"></a><strong>报错总结</strong></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer not found: git** 或者 **ERROR Deployer not found: github</div></pre></td></tr></table></figure>
+<h3 id="报错总结"><a href="#报错总结" class="headerlink" title="报错总结"></a><strong>报错总结</strong></h3><p><strong>ERROR Deployer not found: git</strong> 或者 <strong>ERROR Deployer not found: github</strong></p>
 <p><strong>解决方法</strong>： <strong>npm install hexo-deployer-git –save</strong></p>
 <p>如发生报错： <strong>ERROR Process failed: layout/.DS_Store </strong>, 那么进入主题里面layout和_partial目录下，使用删除命令：</p>
 <p><strong>rm-rf.DS_Store</strong></p>
@@ -151,7 +537,7 @@
 <p>hexo generate（或hexo g）</p>
 <p>启动本地服务器：</p>
 <p>hexo server（或hexo s）</p>
-<p>再，点击网址<a href="http://0.0.0.0:4000/" target="_blank" rel="external">http://0.0.0.0:4000</a>OK终于可以看到属于你自己的blog啦，😄，虽然很简陋，但好歹有了一个属于自己的小窝了。<a href="https://disqus.com/home/discussion/bsspirit/hexogithubweb/" target="_blank" rel="external">参考链接</a>，本地已经简单的设置好了，但是现在域名和服务器都是基于自己的电脑，接下来需要跟github进行关联。</p>
+<p>再，点击网址<a href="http://0.0.0.0:4000/" target="_blank" rel="external">http://0.0.0.0:4000</a>OK终于可以看到属于你自己的blog啦，😄，虽然很简陋，但好歹有了一个属于自己的小窝了。</p>
 <h3 id="主题推荐"><a href="#主题推荐" class="headerlink" title="主题推荐"></a>主题推荐</h3><p>这里有大量的<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题列表</a>使用方法里面</p>
 <p>都有详细的介绍，我就不多说了。</p>
 <p>我这里有几款个人认为不错的主题，免去你们，一个一个的选了，欢迎吐槽我的审美，😄</p>
@@ -184,42 +570,117 @@
 <p><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">链接一</a></p>
 <hr>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/07/15/hexo/" data-id="cj54wd1000000k0gl7uckk6rn" class="article-share-link">Partager</a>
+
+    <div>
       
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-</article>
+  </article>
 
 
+    
+      
+
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/07/15/hello-world/" class="article-date">
-  <time datetime="2017-07-15T03:00:50.788Z" itemprop="datePublished">2017-07-15</time>
-</a>
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/15/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱润亚">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/user.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朱润亚的博客">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/15/hello-world/">Hello World</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/15/hello-world/" itemprop="url">Hello World</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-15T11:00:50+08:00">
+                2017-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -229,92 +690,308 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/07/15/hello-world/" data-id="cj54wd1050001k0gl487nokw6" class="article-share-link">Partager</a>
+
+    <div>
       
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
-  </div>
+  </article>
+
+
+    
+  </section>
+
   
-</article>
 
 
-  
+          </div>
+          
 
-</section>
+
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/07/15/hexo/">HEXO+Github,搭建属于自己的博客</a>
-          </li>
-        
-          <li>
-            <a href="/2017/07/15/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+    <div class="sidebar-inner">
 
-  
-</aside>
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/user.png"
+               alt="朱润亚" />
+          <p class="site-author-name" itemprop="name">朱润亚</p>
+           
+              <p class="site-description motion-element" itemprop="description">扶我起来，还能撑几年</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 朱润亚<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">朱润亚</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/three/three.min.js"></script>
+
+  
+  <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
